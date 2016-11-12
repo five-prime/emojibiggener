@@ -1,0 +1,87 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title> Emoji Biggener </title>
+  <!---
+  local imports
+  --->
+
+  <!---
+  frameworks
+  --->
+
+</head>
+<body>
+
+  <style>
+  body{
+
+    background-color: #2196F3;
+  }
+  .😀{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+
+  .💀	{}
+
+.🖖{
+
+  font-size: 2rem;
+
+
+}
+
+#📓{
+  margin-top: 2rem;
+  width: 50vh;
+  height: 40vh;
+  border: 2px solid gray;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 15rem;
+  line-height: 300px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#🔫 {
+width: 15rem;
+height: 2rem;
+font-size: 1.5rem;
+
+}
+#🔍{
+  width: 3rem;
+  height: 3rem;
+
+}
+  </style>
+  <script>
+function magnify(){
+var userIn = document.getElementById('🔫').value;
+var glass = document.getElementById('📓');
+glass.innerHTML = userIn;
+
+
+};
+  </script>
+  <div class="😀">
+    <div class="💀">
+      <span class="🖖">A Noble Spirit Embiggens The Smallest Man</span>
+    </div>
+
+    <div id="📓"></div>
+    <div>
+      <input id="🔫" type="text">
+      <button id = "🔍" type='button' onclick = "magnify()" maxlength="1"><span class="🖖">🔍</span></button>
+
+    </div>
+  </div>
+</body>
+</html>
